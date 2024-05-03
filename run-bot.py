@@ -321,11 +321,11 @@ async def help(interaction: discord.Interaction):
 - Troubleshooting: I can help troubleshoot technical issues.
 Please provide more details about the specific assistance you require, and I will do my best to help.
 """)
-guild = discord.Object(id='1169765046713339935')
 
 # Get Guild ID from right clicking on server icon
 # Must have devloper mode on discord on setting>Advance>Developer Mode
 #More info on tree can be found on discord.py Git Repo
+guild = discord.Object(id='1169765046713339935')
 
 @bot.command()
 @commands.guild_only()
